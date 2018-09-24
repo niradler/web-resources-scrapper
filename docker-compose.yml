@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  web-resources-scrapper:
+    image: web-resources-scrapper
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 8080:8080
