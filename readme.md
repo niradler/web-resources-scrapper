@@ -1,8 +1,8 @@
-# web-resources-scrapper
+# Web Resources Scrapper
 
 Scrap sites for web resources for developers.
 
-### service interaction
+### Service Interaction
 
 - GET /resources?from=MM-YYYY&source=https://site.com
 
