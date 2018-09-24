@@ -72,5 +72,5 @@ const init = async() => {
     }
 }
 
-console.time('start')
-init().then(d => console.timeEnd('start'));
+
+init().then(d => console.log(d));
